@@ -6,5 +6,5 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-result = factor(number_one)
+result = factorial(number_one)
 print(result)
